@@ -16,10 +16,10 @@ struct WiFiCredentials {
 };
 
 // VITAL: Add your preferred Wi-Fi networks here. The device will try them in order.
-const WiFiCredentials networks[] = {
-  {"VIT","Eap610@203"}, 
-  {"Galaxy F125CD9","pova1846"},
-  {"vivo Y56 5G", "1234567890q"},     // <-- REPLACE THIS EXAMPLE WITH YOUR FIRST WIFI // <-- REPLACE THIS EXAMPLE WITH YOUR SECOND WIFI  
+ const WiFiCredentials networks[] = {
+  {"YOUR_WIFI_1", "YOUR_PASSWORD_1"},
+  {"YOUR_WIFI_2", "YOUR_PASSWORD_2"},
+  {"YOUR_WIFI_3", "YOUR_PASSWORD_3"}   // <-- REPLACE THIS EXAMPLE WITH YOUR FIRST WIFI // <-- REPLACE THIS EXAMPLE WITH YOUR SECOND WIFI  
 };
 const int NUM_NETWORKS = sizeof(networks) / sizeof(networks[0]);
 
@@ -30,7 +30,7 @@ const unsigned long WIFI_RETRY_DELAY_MS = 60000;
 unsigned long lastFailedConnectionTime = 0; // Tracks the last time a full retry sequence failed.
 
 // --- Google Apps Script (GAS) Configuration ---
-const String GAS_ID = "AKfycbxHxNGdnSWWJ3zOitBZ0naCyVPFmC2WzTaVrdKQJqlmSDwztp8lY1lhYL9Se70uEAY_";
+const String GAS_ID = "YOUR GAS ID";
 const String host = "script.google.com";
 
 // --- RFID Reader Configuration ---
