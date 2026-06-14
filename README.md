@@ -48,13 +48,13 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 6. Attendance records are stored automatically in Google Sheets.
 7. LCD display and buzzer provide immediate user feedback.
 
-## Circuit Diagram
-
-The complete circuit diagram is included in this repository.
-
 ## Block Diagram
 
-The system block diagram is included in this repository.
+![Block Diagram](hardware/Block_Diagram.jpeg)
+
+## Circuit Diagram
+
+![Circuit Diagram](hardware/Circuit_Diagram.jpeg)
 
 ## Applications
 
