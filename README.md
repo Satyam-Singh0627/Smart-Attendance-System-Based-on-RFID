@@ -1,4 +1,4 @@
-# Smart Attendance System Based on RFID
+# Smart Attendance System Based on RFID and ESP8266
 
 An IoT-based attendance management system that uses RFID technology and ESP8266 NodeMCU to automate attendance recording and store data in Google Sheets for real-time monitoring and analysis.
 
@@ -10,7 +10,7 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 
 * RFID-based attendance authentication
 * Real-time attendance recording
-* Wi-Fi enabled cloud synchronization
+* Wi-Fi-enabled cloud synchronization
 * Google Sheets integration
 * LCD display for user feedback
 * Buzzer notification for successful scans
@@ -84,6 +84,36 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 
 ---
 
+## Repository Structure
+
+```text
+Smart-Attendance-System-Based-on-RFID/
+│
+├── cloud/
+│   ├── GoogleAppsScript.js
+│   └── README.md
+│
+├── firmware/
+│   ├── RFID_Attendance.ino
+│   └── README.md
+│
+├── hardware/
+│   ├── Block_Diagram.jpeg
+│   ├── Circuit_Diagram.jpeg
+│   ├── Hardware_Setup.jpeg
+│   ├── Components_List.md
+│   └── README.md
+│
+├── screenshots/
+│   ├── Attendance_Log.png
+│   ├── Student_List.jpeg
+│   ├── Time_Table.jpeg
+│   └── README.md
+│
+├── LICENSE
+└── README.md
+```
+
 ## Applications
 
 * Educational Institutions
@@ -99,6 +129,10 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 * Face Recognition Authentication
 * Attendance Analytics Dashboard
 * Multi-Classroom Deployment
+
+## Project Status
+
+Completed and successfully tested for RFID-based attendance management using ESP8266 NodeMCU, RC522 RFID Reader, and Google Sheets integration.
 
 ## Author
 
