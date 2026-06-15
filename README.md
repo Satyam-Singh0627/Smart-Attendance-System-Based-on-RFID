@@ -52,9 +52,37 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 
 ![Block Diagram](hardware/Block_Diagram.jpeg)
 
+---
+
 ## Circuit Diagram
 
 ![Circuit Diagram](hardware/Circuit_Diagram.jpeg)
+
+---
+
+## Hardware Setup
+
+![Hardware Setup](hardware/Hardware_Setup.jpeg)
+
+---
+
+## Attendance Log
+
+![Attendance Log](screenshots/Attendance_Log.jpeg)
+
+---
+
+## Student List
+
+![Student List](screenshots/Student_List.jpeg)
+
+---
+
+## Timetable
+
+![Timetable](screenshots/Time_Table.jpeg)
+
+---
 
 ## Applications
 
