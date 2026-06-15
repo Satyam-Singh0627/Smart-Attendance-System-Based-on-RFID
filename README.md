@@ -68,7 +68,7 @@ Traditional attendance systems are time-consuming and prone to errors. This proj
 
 ## Attendance Log
 
-![Attendance Log](screenshots/Attendance_Log.jpeg)
+![Attendance Log](screenshots/Attendance_Log.png)
 
 ---
 
